@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KazBroker | Майнинг-Хостел</title>
+  <meta name="keywords" content="Криптовалюты, Майнинг, Доход, Инвестиция">
+  <meta name="description" content="Майнинг-Хостел для действующих майнеров">
+  <meta property="og:title" content="KazBroker" />
+  <meta property="og:description" content="Майнинг-Хостел для действующих майнеров" /> 
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/static/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/static/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/static/favicon-16x16.png">
+  <link rel="manifest" href="./assets/static/site.webmanifest">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/aos.css">
+  <link rel="stylesheet" href="./assets/css/swiper.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <img src="./assets/img/Logo.png" alt="Logo">
+      </div>
+      <ul class="menu">
+        <li id="hotel-link-header" class="menu__item">
+          <a>Майнинг-хостел</a>
+        </li>
+        <li id="detail-link-header" class="menu__item">
+          <a>Развмещение в хостеле</a>
+        </li>
+        <li id="doing-link-header" class="menu__item">
+          <a >Детали</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <section class="main">
+    <img class="main__bg" src="./assets/img/mainBg.png">
+    <div class="container main-container">
+      <div class="main__wrapper">
+        <h1><span>Майнинг-Хостел</span> для действующих майнеров</h1>
+        <p>Включите до 200 кВт оборудования в нашу розетку и просто получайте крипту</p>
+        <button class="main__btn main-btn" onclick="showModal()">Получить тех условия</button>
+        <span class="main__subdesc">Действующая площадка со всей инфраструктурой в Алматинской области</span>
+      </div>
+    </div>
+  </section>
+  <div class="razdelitel_1">
+      <div></div><div></div><div></div><div></div>
+  </div>
+  <section class="why desktop">
+    <div class="container why-container">
+      <h2 class="section__title">Зачем Вам размещаться в хостеле?</h2>
+      <div class="why__items">
+        <div class="why__item">
+          <h4>Условия</h4>
+          <p>Готовы к запуску, но все еще не нашли подходящих условий для размещения</p>
+        </div>
+        <div class="why__item">
+          <h4>Ресурсы</h4>
+          <p>Закупили процессоры, но не владеете нужными ресурсами
+            для открытия своей фермы</p>
+        </div>
+        <div class="why__item">
+          <h4>Операционка</h4>
+          <p>Хотите получать доход 
+            от своей майнинг-фермы, 
+            но нет времени заниматься операционной деятельностью
+            </p>
+        </div>
+        <div class="why__item">
+          <h4>Знания</h4>
+          <p>Не владеете необходимыми знаниями, навыками, персоналом для того, чтобы самостоятельно вести подобную деятельность</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="why mobile">
+    <div class="container why-container">
+      <h2 class="section__title">Зачем Вам размещаться в хостеле?</h2>
+      <div class="swiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide why__item">
+            <h4>Условия</h4>
+            <p>Готовы к запуску, но все еще не нашли подходящих условий для размещения</p>
+          </div>
+          <div class="swiper-slide why__item">
+            <h4>Ресурсы</h4>
+            <p>Закупили процессоры, но не владеете нужными ресурсами
+              для открытия своей фермы</p>
+          </div>
+          <div class="swiper-slide why__item">
+            <h4>Операционка</h4>
+            <p>Хотите получать доход 
+              от своей майнинг-фермы, 
+              но нет времени заниматься операционной деятельностью
+              </p>
+          </div>
+          <div class="swiper-slide why__item">
+            <h4>Знания</h4>
+            <p>Не владеете необходимыми знаниями, навыками, персоналом для того, чтобы самостоятельно вести подобную деятельность</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="doing" class="doing">
+    <div class="container doing-container">
+      <h2 class="doing__title section__title">Мы сделаем <span>все</span> за вас!</h2>
+      <div class="doing__items">
+        <div class="doing__item">
+          <div class="doing__item-numeric">
+            01
+          </div>
+          <p>Вы сообщаете нам наименование вашего оборудования и объем потребляемой им электроэнергии</p>
+        </div>
+        <div class="doing__item">
+          <div class="doing__item-numeric">
+            02
+          </div>
+          <p>После предварительной оценки возможности принятия мы бронируем под Вас место</p>
+        </div>
+        <div class="doing__item">
+          <div class="doing__item-numeric">
+            03
+          </div>
+          <p>Приглашаем Вас в наш офис в Алматы для принятия оборудования и заключения договора </p>
+        </div>
+        <div class="doing__item">
+          <div class="doing__item-numeric">
+            04
+          </div>
+          <p>В течении 5 рабочих дней мы проведем диагностику и подключение Вашего оборудования</p>
+        </div>
+        <div class="doing__item">
+          <div class="doing__item-numeric">
+            05
+          </div>
+          <p>Далее наш технический персонал обеспечивает круглосуточныймониторинг и техническое обслуживание</p>
+        </div>
+      </div>
+      <div class="doing__footer">
+        <button class="main-btn" onclick="showModal()">Забронировать место</button>
+      </div>
+    </div>
+  </section>
+  <section id="hotel" class="hotel desktop">
+    <div class="container hotel-container">
+      <h2 class="section__title">Называем <span>«Хостел»</span>, по факту – <span>Отель</span></h2>
+      <div class="hotel__items">
+        <div class="hotel__item">
+          <div class="hotel__item-numeric">
+            01
+          </div>
+          <p>Ваше оборудование будет установлено
+            в специализированных помещениях</p>
+        </div>
+        <div class="hotel__item">
+          <div class="hotel__item-numeric">
+            02
+          </div>
+          <p>Оно снабжается прямым источником энергии с запасом мощности по долгосрочному контракту</p>
+        </div>
+        <div class="hotel__item">
+          <div class="hotel__item-numeric">
+            03
+          </div>
+          <p>Мы зарегистрировали свою деятельность майнера в уполномоченном государственном органе – вам уже не нужно дополнительно ничего регистрировать</p>
+        </div>
+        <div class="hotel__item">
+          <div class="hotel__item-numeric">
+            04
+          </div>
+          <p>Помещения под Ваше оборудование уже оснащены необходимыми системами вентиляции</p>
+        </div>
+        <div class="hotel__item">
+          <div class="hotel__item-numeric">
+            05
+          </div>
+          <p>«Розетки» готовы к установке любых современных майнинг-процессоров</p>
+        </div>
+        <div class="hotel__item">
+          <div class="hotel__item-numeric">
+            06
+          </div>
+          <p>Умелые руки специалистов на месте позаботятся о нужном режиме работы и получению Вами заданной мощности оборудования</p>
+        </div>
+      </div>
+      <div class="hotel__footer">
+        <button class="main-btn" onclick="showModal()">Забронировать место</button>
+      </div>
+    </div>
+  </section>
+  <section id="hotel" class="hotel mobile">
+    <div class="container hotel-container">
+      <h2 class="section__title">Называем <span>«Хостел»</span>, по факту – <span>Отель</span></h2>
+      <div class="swiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide hotel__item">
+            <div class="hotel__item-numeric">
+              01
+            </div>
+            <p>Ваше оборудование будет установлено
+              в специализированных помещениях</p>
+          </div>
+          <div class="swiper-slide hotel__item">
+            <div class="hotel__item-numeric">
+              02
+            </div>
+            <p>Оно снабжается прямым источником энергии с запасом мощности по долгосрочному контракту</p>
+          </div>
+          <div class="swiper-slide hotel__item">
+            <div class="hotel__item-numeric">
+              03
+            </div>
+            <p>Мы зарегистрировали свою деятельность майнера в уполномоченном государственном органе – вам уже не нужно дополнительно ничего регистрировать</p>
+          </div>
+          <div class="swiper-slide hotel__item">
+            <div class="hotel__item-numeric">
+              04
+            </div>
+            <p>Помещения под Ваше оборудование уже оснащены необходимыми системами вентиляции</p>
+          </div>
+          <div class="swiper-slide hotel__item">
+            <div class="hotel__item-numeric">
+              05
+            </div>
+            <p>«Розетки» готовы к установке любых современных майнинг-процессоров</p>
+          </div>
+          <div class="swiper-slide hotel__item">
+            <div class="hotel__item-numeric">
+              06
+            </div>
+            <p>Умелые руки специалистов на месте позаботятся о нужном режиме работы и получению Вами заданной мощности оборудования</p>
+          </div>
+        </div>
+      </div>
+      <div class="hotel__footer">
+        <button class="main-btn" onclick="showModal()">Забронировать место</button>
+      </div>
+    </div>
+  </section>
+  <section id="detail" class="condition">
+    <div class="container condition-container">
+      <h2 class="section__title">Еще несколько <span>деталей</span> по условиям <span>размещения</span></h2>
+      <div class="condition__items">
+        <div class="condition__item">
+          <div class="condition__numeric">01</div>
+          <img src="./assets/img/condition1.png" alt="con">
+          <p>Максимальная нагрузка до ~200 кВт</p>
+        </div>
+        <div class="condition__item">
+          <div class="condition__numeric">02</div>
+          <img src="./assets/img/condition2.png" alt="con">
+          <p>Стоимость электроэнергии ~23 тг. за 1 кВт/ч</p>
+        </div>
+        <div class="condition__item">
+          <div class="condition__numeric">03</div>
+          <img src="./assets/img/condition3.png" alt="con">
+          <p>Техническое обслуживание одной машинки в месяц ~10$</p>
+        </div>
+        <div class="condition__item">
+          <div class="condition__numeric">04</div>
+          <img src="./assets/img/condition4.png" alt="con">
+          <p>Охрана и мониторинг</p>
+        </div>
+        <div class="condition__item">
+          <div class="condition__numeric">05</div>
+          <img src="./assets/img/condition5.png" alt="con">
+          <p>Услуги ремонта по прайс-листу</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq">
+    <div class="container faq-container">
+      <h2 class="section__title">Часто задаваемые вопросы</h2>
+      <div class="risk_section">
+        <div class="risk_box">
+            <div class="risk_header" onclick="show_answer()">
+                <div class="risk_header_title">Какова процедура передачи оборудования?</div>
+                <div class="risk_header_arrow"><div>&#8249;</div></div>
+            </div>
+            <div class="risk_answer">
+                <div class="risk_answer_text">Передача оборудования происходит в офисе компании в Алматы. Осуществляется запись серийных номеров, оборудование фотографируется, передача протоколируется и заверяется подписями и (при наличии) печатями обеих сторон. Проверка на работоспособность оборудования осуществляется на нашей ферме, что также фиксируется актами диагностики
+                </div>
+            </div>
+        </div>
+        <div class="risk_box">
+            <div class="risk_header" onclick="show_answer()">
+                <div class="risk_header_title">Какое количество процессоров можно разместить?
+                </div>
+                <div class="risk_header_arrow"><div>&#8249;</div></div>
+            </div>
+            <div class="risk_answer">
+                <div class="risk_answer_text">Минимальный объем майнинг-процессоров по потребляемой электроэнергии составляет не менее 10 кВт/ч. Максимальный порог – до 200 кВт/ч потребляемой электроэнергии.</div>
+            </div>
+        </div>
+        <div class="risk_box">
+            <div class="risk_header" onclick="show_answer()">
+                <div class="risk_header_title">Какое выходное напряжение в точке доступа?
+                </div>
+                <div class="risk_header_arrow"><div>&#8249;</div></div>
+            </div>
+            <div class="risk_answer">
+                <div class="risk_answer_text">Выходное напряжение - в среднем 225-230 В</div>
+            </div>
+        </div>
+        <div class="risk_box">
+            <div class="risk_header" onclick="show_answer()">
+                <div class="risk_header_title">Достаточно ли воды для технологических процессов? </div>
+                <div class="risk_header_arrow"><div>&#8249;</div></div>
+            </div>
+            <div class="risk_answer">
+                <div class="risk_answer_text">Для рециркуляции воды на каждом контейнере фермы установлена емкость объемом 1 куб.м. с насосами для прямой и бесперебойной подачи воды</div>
+            </div>
+        </div>
+        <div class="risk_box">
+          <div class="risk_header" onclick="show_answer()">
+              <div class="risk_header_title">Как обеспечивается обслуживание?</div>
+              <div class="risk_header_arrow"><div>&#8249;</div></div>
+          </div>
+          <div class="risk_answer">
+            <div class="risk_answer_text">На объекте работают 4 оператора посменно по 12 часов, а также 2 управляющих площадки с посменным графиком. Помимо этого, на площадке работает строительная бригада. Общее количество людей, обслуживающих площадку - 12 человек, включая специалиста по IT и электрика. Дополнительно при необходимости привлекаются электрики ТЭЦ.</div>
+          </div>
+        </div>
+        <div class="risk_box">
+          <div class="risk_header" onclick="show_answer()">
+              <div class="risk_header_title">Как обеспечивается безопасность площадки?</div>
+              <div class="risk_header_arrow"><div>&#8249;</div></div>
+          </div>
+          <div class="risk_answer">
+            <div class="risk_answer_text">Ферма расположена на территории ТЭЦ, где имеется собственная охранная организация, постоянный обход и визуальный контроль. Кроме того, у фермы имеется собственная система удаленного видеонаблюдения.</div>
+          </div>
+        </div>
+        <div class="risk_box">
+          <div class="risk_header" onclick="show_answer()">
+              <div class="risk_header_title">Можно ли посмотреть площадку?</div>
+              <div class="risk_header_arrow"><div>&#8249;</div></div>
+          </div>
+          <div class="risk_answer">
+            <div class="risk_answer_text">В связи с удаленным расположением и тем, что объект находится под особым режимом, мы не можем предоставить просмотр объекта каждому желающему клиенту. Вместе с тем, если Ваши намерения будут закреплены юридически, а объем размещаемого Вами оборудования будет порядка 200 кВт, в виде исключения мы сможем организовать разовый просмотр площадки. Предварительно Вы сможете провести визуальный осмотр по имеющимся удаленным каналам видеосвязи с объектом.</div>
+          </div>
+        </div>
+        <div class="risk_box">
+          <div class="risk_header" onclick="show_answer()">
+              <div class="risk_header_title">Как решаются юридические вопросы – договор, разрешения и пр.?</div>
+              <div class="risk_header_arrow"><div>&#8249;</div></div>
+          </div>
+          <div class="risk_answer">
+            <div class="risk_answer_text">У нас имеются все необходимые разрешения, технические условия на подключение от распределительной компании, уведомление о ведении деятельности и прочие документы. В случае, если Вы готовы юридически подкрепить намерение о размещении оборудования, после согласования условий и прочих обязательных процедур Вам могут быть предоставлены все документы, подтверждающие легитимность деятельности майнера. Также по Вашему запросу мы заранее можем отправить драфт договора об оказании услуг хостела.</div>
+          </div>
+        </div>
+      </div>
+      <div class="faq__footer">
+        <div class="faq__footer-text">
+          <p>Также любые дополнительные вопросы Вы можете задать при созвоне с нашими специалистами, оставив свои контактные данные в форме обратной связи</p>
+        </div>
+        <div class="faq__footer-btn">
+          <button class="main-btn faq__footer-button" onclick="showModal()">Задать дополнительные вопросы</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="connect" class="connect">
+    <div class="container connect-container">
+      <h2 class="section__title">Подключайтесь к нашей розетке <span>прямо сейчас!</span></h2>
+      <form class="connect__form">
+        <div class="row">
+          <input id="name" type="text" placeholder="ФИО">
+          <input id="phone" type="text" placeholder="Телефон">
+        </div>
+        <div class="connect__footer button_form">
+          <button class="main-btn button_form" onclick="sendForm()">Подключится</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer__top">
+        <div class="footer__left">
+          <div class="logo">
+            <img src="./assets/img/Logo.png" alt="logo">
+            <h4>Крипто <span>майнинг</span></h4>
+          </div>
+          <p><span>Инвестиции</span> в добычу цифровых активов</p>
+          <div class="follow__us">
+            <span>Подпишитесь на нас</span>
+            <div class="follow__us-social">
+              <a href="#"><img src="./assets/img/icons8-instagram.svg" alt="icons8-instagram"></a>
+              <a href="#"><img src="./assets/img/icons8-facebook.svg" alt="icons8-facebook"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="col">
+            <div id="hotel-link" class="footer__menu-item">
+              <a>Майнинг-Хостел</a>
+            </div>
+            <div id="doing-link" class="footer__menu-item">
+              <a>Детали</a>
+            </div>
+          </div>
+          <div class="col">
+            <div id="detail-link" class="footer__menu-item">
+              <a>Размещение в хостеле</a>
+            </div>
+            <div id="connect-link" class="footer__menu-item">
+              <a>Подключиться</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© ТОО «Kazbroker Invest», 2021</span>
+    </div>
+  </footer>
+
+  <div class="message_section">
+      <div class="message_head">
+          <div class="img3">
+              <img  class="messengers_icon" src="./assets/img/messenger.png" >
+          </div>
+          <div class="img1"><a href="https://api.whatsapp.com/send?phone=<+77712282268>"><img src="./assets/img/free-icon-whatsapp-220236.png" ></a></div>
+          <div class="img2"><a href="https://t.me/Kazbek_Koishibay"><img src="./assets/img/telegram.png" ></a></div>
+          <div class="img4"><a href="tel:+77712282268"><img src="./assets/img/phone.png" ></a></div>
+      </div>
+  </div>
+
+  <div class="success">
+    <div style="text-align: center; font-size: 14px;">
+        Благодарим, мы свяжемся с Вами в ближайшее время!
+    </div>
+  </div>
+
+  <div class="error">
+    <div style="text-align: center;">
+        Введите корректные данные
+    </div>
+  </div>
+  
+  <div class="modal" onclick="modal()">
+    <div class="modal__content">
+      <h4>Оставить заявку!</h4>
+      <form class="modal__form">
+        <div class="row">
+          <input id="name2" type="text" placeholder="ФИО">
+          <input id="phone2" type="text" placeholder="Телефон">
+        </div>
+        <button class="main-btn modal-btn" onclick="sendForm()">Отправить</button>
+      </form>
+    </div>
+  </div>
+  <script src="./assets/js/mask.js"></script>
+  <script src="./assets/js/swiper.js"></script>
+  <script src="./assets/js/aos.js"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
